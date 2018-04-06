@@ -18,7 +18,7 @@ if($(window).width()<768){
 function checkstick(){
 	console.log('happened');
 	var hT = $('#gotcha').offset().top,
-       hH = $('#g').outerHeight(),
+       hH = $('#gotcha').outerHeight(),
        wH = $(window).height(),
        wS = $(this).scrollTop();
        console.log(hT);
