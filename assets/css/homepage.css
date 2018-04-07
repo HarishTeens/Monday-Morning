@@ -1,11 +1,9 @@
-html{
-	height: 100vh;
-	width: 100vh;
+
+.container{
+	
 }
 body{
-	background-image: url('../img/background.png');
-	padding-left: 20px;
-	padding-right: 20px;
+	background-image: url('../img/background.png');	
 	height: 100%;
 	width: 100%;
 }
@@ -14,12 +12,8 @@ body{
 	background-image: url(../img/cover6.jpg);
 	background-size: cover;	
 	height: 340px;
+}
 
-}
-.container{
-	margin-right: 145px;
-	margin-left: 145px;
-}
 #main-nav{
 	background: none;
 	border: 0px;
@@ -358,6 +352,7 @@ footer .blue-heading+p{
 #sidebar{
 	padding: 25px;
 	padding-right: 0px;
+	padding-top: 0px;
 	
 }
 .squiggles{
@@ -456,7 +451,63 @@ footer .blue-heading+p{
 }
 aside>div{
 	margin-bottom: 40px;
+
 }
+
 img:hover{
 	opacity: 0.8;
+}
+#lateral-squiggles-1{
+		display: none;
+}
+@media (max-width: 992px){
+	#lateral-squiggles-1{
+		display: block;
+	}
+	#lateral-squiggles-2{
+		display: none;
+	}
+}
+@media (max-width: 979px) and (min-width: 768px){
+	.pickoftheweek>img{
+		width: 85%;
+	}
+}
+
+.events{
+	min-height: 250px;
+}
+.squiggles p{
+	font-size: 17px;
+}
+.image-slider{
+	margin: 20px 0;
+}
+.news-this-issue div{
+	margin: 20px 0;
+}
+@media (min-width: 750px){
+	.facebook{
+		padding: 0px;
+	}
+	.departments+aside{
+		padding: 0px;
+	}
+}
+.carousel-control{
+	top: 50%;
+	z-index: 1000;
+	background: none !important;
+}
+.student-pulse{
+	padding: 0px 10px;
+}
+.student-pulse>p{
+	line-height: 15px;
+}
+.student-pulse>form{
+	line-height: 15px;	
+}
+.departments+aside{
+	padding-left: 20px;
 }
