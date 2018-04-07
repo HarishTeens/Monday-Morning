@@ -192,8 +192,9 @@ img{
 }
 .desc{
 	font-size: 10px;
-	color: #000;
-	font-weight: bold;
+	color: #222;
+	font-weight: 600;
+	word-spacing: 0px;
 }
 .desc:hover{
 	color: #006DCC;
@@ -218,6 +219,13 @@ img{
 	margin: 0px;
 	text-align: justify;
 
+}
+.comment{
+	color: #888;
+}
+.comment:hover{
+	text-decoration: none;
+	color: #006DCC;
 }
 .row div{	
 	height: 100%;
@@ -392,7 +400,7 @@ footer .blue-heading+p{
 	opacity: 1;
 }
 .zen-journal{
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 .student-pulse{
 	font-weight: bold;
@@ -424,6 +432,31 @@ footer .blue-heading+p{
 	background: #e6e6e6;
 }
 
-#gotcha .row:nth-child(1){
+#gotcha>.row:nth-child(1){
 	border-bottom: 1px dashed #969292;
+}
+.news-this-issue{
+	padding-bottom: 50px;
+	border-bottom: 1px dashed #969292;
+}
+.news-this-issue div{
+	padding-left: 0px;
+}
+.departments{
+	padding: 0px;
+}
+.departments>.row>div{
+	padding-left: 13px;
+	padding-right: 13px;	
+	height:  100%;	
+}
+.departments img{
+	max-height: 175px;
+	overflow-y: hidden;
+}
+aside>div{
+	margin-bottom: 40px;
+}
+img:hover{
+	opacity: 0.8;
 }
