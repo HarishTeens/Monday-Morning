@@ -1,13 +1,24 @@
+html{
+	height: 100vh;
+	width: 100vh;
+}
 body{
 	background-image: url('../img/background.png');
 	padding-left: 20px;
 	padding-right: 20px;
+	height: 100%;
+	width: 100%;
 }
+
 #container1{
 	background-image: url(../img/cover6.jpg);
-	background-size: cover;
-	
+	background-size: cover;	
 	height: 340px;
+
+}
+.container{
+	margin-right: 145px;
+	margin-left: 145px;
 }
 #main-nav{
 	background: none;
@@ -172,7 +183,9 @@ body{
 img{
 	max-width: 100%;
 	max-height: 100%;
-	
+	width: 100%;
+	height: 100%;
+	background-size: cover;
 }
 .info{
 	margin-top: 15px;		
@@ -203,12 +216,214 @@ img{
 .data{
 	color: rgb(82,82,82);
 	margin: 0px;
+	text-align: justify;
 
 }
-.row div{
-	
+.row div{	
 	height: 100%;
 }
 .main .row{
 	margin-bottom: 20px;
+}
+.row2 .info {
+	max-height: 190px !important;
+}
+.infoo{
+	max-height: 150px;
+	overflow: hidden;
+}
+.wits-dom{
+	background: #E4F1FE;
+	margin-left: -25px;
+	border-left: 3px solid #006DCC;
+	padding: 20px;
+	padding-right: 0px;
+
+}
+.wits-dom div:nth-child(2) img{
+	height: 350px;
+	background-size: cover;
+	background-position: center;
+}
+#posts{
+	padding: 0px;
+}
+
+.fixed-buttons{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	left: 0px;
+	text-align: center;
+	background: rgba(0,0,0,0.7);
+	z-index:1000;
+	padding: 5px;
+}
+#fixed-button{
+	font-size: 12px;
+	background: #006DCC;
+	color: #fff;
+	font-weight: bold;	
+	text-transform: uppercase;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+footer{
+	width: 100%;	
+	background: #222;
+	margin-left:  -20px;
+	margin: 0px;
+	padding: 30px;
+
+	
+}
+#fixed-button:hover{
+	color: #333333;
+	background: #e6e6e6;
+}
+
+.blue-heading{
+	color: #006DCC;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+footer .blue-heading+p{
+	color: #aaa;
+	text-align: justify;
+	font-size: 11px;
+	word-spacing: 5px;
+	line-height: 17px;
+}
+.social+a>img{
+	width: 50%;
+	margin-top: 30px;
+}
+.archive{
+	padding: 0px;
+
+}
+.archive li {
+	list-style: none;
+	
+	border-bottom: 1px dashed rgba(228,228,194,0.2);
+	padding: 10px;
+}
+.archive li a{
+	color: #777;
+}
+.archive li:hover{
+	
+	
+	background: rgba(255,255,255,0.04);
+}
+.archive li a:hover{
+	text-decoration: none;
+	color: #006DCC;
+
+}
+.final-footer{
+	background: #111;
+	margin: 0px -30px;
+	padding: 20px;
+	margin-bottom: 20px;
+
+}
+.final-footer p{
+	color: #aaa;
+	text-align: center;
+	font-size: 11px;
+
+}
+#event-button{
+	font-weight: bold;
+	float: right;
+	margin-top: 8px;
+
+}
+#event-button:hover{
+	color: #333333;
+	background: #e6e6e6;
+}
+#sidebar{
+	padding: 25px;
+	padding-right: 0px;
+	
+}
+.squiggles{
+	background: #f3ea41;
+	text-align: justify;
+	padding: 20px;	
+	margin-bottom: 30px;
+}
+
+.squiggles h4{
+	font-weight: bold;
+}
+.pickoftheweek{
+	margin-bottom: 30px;
+}
+.pickoftheweek p{
+	opacity: 0.5;
+	font-size: 12px;	
+}
+.mail-query{
+	font-weight: bold;
+	color: #333333;
+	opacity: 1;
+}
+.pickoftheweek a{
+	font-weight: normal;
+	font-size: 12px;
+}
+#mail{
+	font-size: 14px;
+	color: #333333;
+	font-weight: bold;
+	text-decoration: underline;
+	opacity: 1;
+}
+#mail:hover{
+	color: #006DCC;
+}
+.zen-journal p{
+	opacity: 1;
+}
+.zen-journal{
+	margin-bottom: 40px;
+}
+.student-pulse{
+	font-weight: bold;
+	padding: 5px;
+}
+.student-pulse p{
+	text-align: justify;
+	font-size: 16px;	
+	margin-bottom: 10px;
+}
+
+.student-pulse>p{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+.student-pulse input{
+	margin-right: 10px;
+}
+#vote-button{
+	border:0px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+#vote-button:hover{
+	color: #333333;
+	background: #e6e6e6;
+}
+
+#gotcha .row:nth-child(1){
+	border-bottom: 1px dashed #969292;
 }
