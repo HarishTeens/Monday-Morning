@@ -70,10 +70,21 @@ body{
 .navbar-form .form-group{
 	display: inline-block;
 }
-@media (max-width: 768px){
+}
+@media (max-width: 1199px){
+	#bs-example-navbar-collapse-2{
+		padding: 0 15px;
+	}
+	#search{
+		padding: 0 15px;
+		margin: 35px 0;
+	}
+}
+@media (max-width: 768px){	
 	.container-fluid{
 		padding: 0px;
 	}
+
 	#container1 .navbar-default .navbar-collapse,#container1 .navbar-default #container1>.navbar-form{		
 		padding-right: 0px;
 		padding-left: 30px;
@@ -153,7 +164,7 @@ body{
 
 	margin-left: 10.41%;
 }
-
+7
 .dropdown-menu>li>ul>li>a{display:block;padding:3px 20px;clear:both;font-weight:400;line-height:1.42857143;color:#333;white-space:nowrap;text-decoration: none;}
 .dropdown-menu>li>ul>li{
 	list-style: none;
@@ -171,7 +182,7 @@ body{
 }
 .main{
 	padding: 20px;
-
+	padding-bottom: 0px; 
 	background: #f8f8f8;
 }
 img{
@@ -279,8 +290,7 @@ footer{
 	margin-left:  -20px;
 	margin: 0px;
 	padding: 30px;
-
-	
+	padding-bottom: 0px;	
 }
 #fixed-button:hover{
 	color: #333333;
@@ -330,7 +340,8 @@ footer .blue-heading+p{
 	background: #111;
 	margin: 0px -30px;
 	padding: 20px;
-	margin-bottom: 20px;
+	padding-bottom: 40px;
+	
 
 }
 .final-footer p{
@@ -481,7 +492,8 @@ img:hover{
 	font-size: 17px;
 }
 .image-slider{
-	margin: 20px 0;
+	margin-bottom: 20px !important;
+
 }
 .news-this-issue div{
 	margin: 20px 0;
@@ -510,4 +522,94 @@ img:hover{
 }
 .departments+aside{
 	padding-left: 20px;
+}
+#myCarousel2 .carousel-indicators li{
+	border:1px solid #000;
+}
+#myCarousel3 .carousel-indicators li{
+	border:1px solid #000;
+}
+.carousel-indicators{
+	bottom: 0px;
+}
+.carousel-indicators li:hover{
+	background: #006DCC;
+}
+.carousel-indicators .active{
+	background: #006DCC;
+}
+
+.overlay{
+	color: #fff ;
+	font-weight: bold;
+	position: absolute;
+	bottom: 40px;
+	text-align: center;
+	left: 0px;
+	z-index: 10000000;
+	background: rgba(0,0,0,0.3);
+	display: table-cell;	
+	vertical-align: middle;
+	height: 70% !important;
+	
+}
+.overlay .datentime .desc{
+	color: #fff;
+	font-weight: bold;	
+}
+.overlay .datentime .desc:hover{
+	color: #006DCC;
+}
+.overlay h1{
+	font-size: 40px;
+	font-weight: 700;
+	margin: 0px 70px 30px;
+}
+.overlay p{
+	margin: 10px 0px;
+}
+.item{
+	display: table;
+}
+.wits-dom .overlay .desc{
+	font-size: inherit;
+	color: #fff;
+}
+.wits-dom .overlay .desc:hover{
+	color: #006DCC;
+}
+.wits-dom .overlay{
+	margin:  0px 15px;
+	bottom: 0px;
+}
+.news-this-issue{
+	margin:0px 20px;
+}
+.news-this-issue .overlay{
+	
+	margin-right: 14px;
+	bottom: 10px;
+	height: 50% !important;
+}
+.news-this-issue .overlay h4{
+	font-weight: 600;
+}
+.news-this-issue .overlay a{
+	font-size: inherit;
+	color: #fff;
+}
+.news-this-issue .overlay a:hover{
+	color: #006DCC;
+}
+.news-this-issue .carousel-control{
+	color: #000;
+	top: 0px;	
+}
+.margin-out-in{
+	margin: 0px;
+	margin-left: 20px;
+
+}
+.floaty{
+	float: right !important;
 }
